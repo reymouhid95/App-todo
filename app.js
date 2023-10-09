@@ -13,7 +13,7 @@ function App() {
     // Vérifier si le local storage est vide et afficher l'alerte si nécessaire
     if (savedTasks.length === 0) {
       alert(
-        "Il n'y a aucune données enregistrées en local. Veuillez en ajouter !"
+        "Il n'y a aucune donnée enregistrée en local. Veuillez en ajouter !"
       );
     }
   }, []);
